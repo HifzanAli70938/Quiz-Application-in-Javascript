@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+.welcome {
+    width: 300px;
+border: none;
+ 
+}
+.btn{
+    
+    background-color: royalblue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    animation: 0.5s;
+}
+
+input,button{
+    display: block;
+   background-color: transparent;
+   border: none;
+   border-bottom: 2px solid white;
+   padding: 10px;
+   width: 100%;
+    
+} 
+input,button:focus{
+outline: none;
+}
+input{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.btn:hover{
+    
+    background-color: rgb(39, 25, 54);
+  animation: ease-in-out;
+  
+}
+.btn{
+transition-property: all;
+transition-duration: 1s;
+transition-delay: 0.1s;
+transition-timing-function: ease-in-out;
+}
+.btn:hover{
+   transform: translateY(-3px);
+}
+.quiz{
+    display: grid;
+    grid-template-rows: 40px auto;
+    background-color: rgb(245, 245, 245);
+    width: 500px;
+    height: 300px;
+    border-radius: 3px;
+}
+.quiz-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0px 1px 1px 1px black;
+
+    
+}
+.user{
+    display: flex;
+   align-items: center;
+   margin-left:3px;
+}
+.timer{
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+   padding: 15px;
+}
+.option{
+    background-color: rgb(209, 209, 209);
+    width: 200px;
+    padding: 10px 10px;
+    list-style: none;
+    margin-bottom:5px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+.question{
+    padding: 7px 5px;
+}
+.next-question{
+    background-color: blue;
+    width: 70px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding:  5px 5px;
+}
+.next-question:hover{
+    cursor: pointer;
+    border: 2px solid blue;
+}
+.option:hover{
+    cursor: pointer;
+    border: 1px solid blue;
+}
+.active{
+    background-color: blue;
+    color: white;
+}
+
+.user-name{
+color: rgb(86, 231, 19);
+display: flex;
+margin-bottom: 10px;
+font-size: 30px;
+}
+.user-points{
+color: white;
+margin-bottom: 10px;
+font-size: 30px;
+
+}
+.user-time{
+    color: black;
+    font-size: 30px;
+  
+}
+h4{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
